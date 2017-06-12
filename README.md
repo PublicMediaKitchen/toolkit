@@ -17,9 +17,9 @@ By participating in this project you agree to abide by the above terms.
 Please ensure your pull request adheres to the following guidelines:
 
 - Review the list carefully before adding your project - there's a chance someone has already listed your project.
-- Additions should be added to the bottom of the relevant category.
+- Additions should be added in alphabetical order within the relevant category.
 - Make an individual pull request for each project listing.
 - Use the following format: `<h4><a href="url-to-project">Project Name]</a><h4>` followed by `<h5>Subhead description no longer than 140 character.</h5>` and finally `<p>a paragraph less than 500 character.</p>`
 - Check your spelling and grammar.
 - The pull request and commit should have a useful title.
-- New categories or improvements to existing categorization are welcome.
+- New categories or improvements to existing categorization are welcome, but must also be submitted with individual pull requests.
