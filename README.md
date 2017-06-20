@@ -1,3 +1,5 @@
+![Public Media Kitchen Logo](/media/pmk_logo-red.png)
+***
 # The Public Media Kitchen Toolkit
 
 There is too much duplication of effort in public media product development. We can do a better job sharing practices and things we build for ourselves that could be useful to others. The Public Media Kitchen Toolkit is a collection of interesting things we're all working on. The intention is first to inform but over time move to direct collaboration.
