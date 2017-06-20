@@ -1,64 +1,102 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="pmk-styles.css">
     <title>Public Media Kitchen Toolkit</title>
   </head>
   <body>
-    <h1>Public Media Kitchen</h1>
-    <p>There is too much duplication of effort in public media product development. We can do a better job sharing practices and things we build for ourselves that could be useful to others. The Public Media Kitchen Toolkit is a collection of interesting things we're all working on. The intention is first to inform but over time move to direct collaboration.</p>
+    <div class="intro">
+      <img src="media/pmk_logo-red_300w.png" alt="Public Media Kitchen Logo" class="logo">
+ 
+      <p>There is too much duplication of effort in public media product development. We can do a better job sharing practices and things we build for ourselves that could be useful to others. The Public Media Kitchen Toolkit is a collection of interesting things we're all working on. The intention is first to inform but over time move to direct collaboration.</p>
 
-    <h2>Toolkit</h2>
-    <p>Instructions for updating this list can be found in this GitHub project's <a href="README.md">readme file</a>.</p>
+      <h1>The Toolkit</h1>
+      <p>Instructions for updating this list can be found in this GitHub project's <a href="README.md">readme file</a>.</p>
+    </div> <!--end intro section -->
+    
+
+    <div class="category">
+    <hr>
+    <h2>Streaming Media</h2>
+
+      <div class="listing">
+        <h3><a href="https://github.com/StreamMachine/StreamMachine">StreamMachine</a>: Next-generation streaming audio infrastructure for radio stations</h3>
+        <p>StreamMachine is an open-source streaming audio server aimed at pushing innovation for radio stations that have spent too many years running old technology like Shoutcast and Icecast. The project has two goals: emulating the traditional streaming experience and building support for new features that push the radio listening experience forward. Currently StreamMachine supports traditional Shoutcast-style streaming and HTTP Live Streaming. SCPR has run StreamMachine in production since 2012.</p>
+      </div>
+
+    </div> <!--end Streaming Media category -->
+
+
+    <div class="category">
+    <hr>
+    <h2>On-Demand Media</h2>
+ 
+      <div class="listing">
+        <h3><a href="https://github.com/ProjectResound">Resound</a>: A suite of applications to help with the storage, management, and distribution of digital audio</h3>
+          <p>The goal of the project is that it's plug-and-play with existing systems, and is easy to use for any user in any given organization. This is a Knight funded project built by SCPR in collaboration with NYPR, WHYY, and NPR-DS.</p>
+      </div>
+
+    </div> <!--end On-Demand Media category -->
+
+
+    <div class="category">
+    <hr>
+    <h2>Data Management</h2>
+    </div> <!--end Data Management category -->
+
+
+    <div class="category">
+    <hr>
+    <h2>IoT (Internet of Things)</h2>
+    </div> <!--end IoT (Internet of Things) category -->
+
+
+    <div class="category">
+    <hr>
+    <h2>Content Management Systems</h2>
+    </div> <!--end Content Management Systems category -->
+
+
+    <div class="category">
+    <hr>
+    <h2>Social Media & 3rd Party Platforms</h2>
+
+      <div class="listing">
+        <h3><a href="https://github.com/nypublicradio/audiogram/">Audiograms</a> A library for generating shareable videos from audio clips</h3>
+        <p>Unlike audio, video is a first-class citizen of social media. It's easy to embed, share, autoplay, or play in a feed, and the major services are likely to improve their video experiences further over time. WNYC's solution to this problem was this library. Given a piece of audio to share on social media, this can generate a video with that audio and some basic accompanying visuals: a waveform of the audio, a theme for the show it comes from, and a caption. For more backstory, <a href="https://medium.com/@WNYC/e648e8a5f2e9">read this post</a>.</p>
+      </div>
+
+    </div> <!--end Social Media & 3rd Party Platforms category -->
+
+
+    <div class="category">
+    <hr>
+    <h2>Mobile Apps</h2>
+    </div> <!--end Mobile Apps category -->
+
+
+    <div class="category">
+    <hr>
+    <h2>Design Systems</h2>
+
+      <div class="listing">
+        <h3><a href="https://company-102826.frontify.com/d/sln5eJoFXZ3B/89-3-kpcc-southern-california-public-radio">KPCC's Style Guide</a>: One guide to rule them all</h3>
+        <p>There's a branding problem at KPCC. Lacking a dedicated marketing department, their Product Designer created a universal style guide that will inform product design, but also branding across other departments.</p>
+      </div>
+
+    </div> <!--end Design Systems category -->
+
+    <div class="category">
+    <hr>
+    <h2>Marketing</h2>
+    </div> <!--end Marketing category -->
+
+    <div class="category">
+    <hr>
+    <h2>Analysis</h2>
+    </div> <!--end Analysis category -->
     
     <hr>
-    <h3>Streaming Media</h3>
 
-    <h4><a href="https://github.com/StreamMachine/StreamMachine">StreamMachine</a></h4>
-    <h5>Next-generation streaming audio infrastructure for radio stations.</h5>
-    <p>StreamMachine is an open-source streaming audio server aimed at pushing innovation for radio stations that have spent too many years running old technology like Shoutcast and Icecast. The project has two goals: emulating the traditional streaming experience and building support for new features that push the radio listening experience forward. Currently StreamMachine supports traditional Shoutcast-style streaming and HTTP Live Streaming. SCPR has run StreamMachine in production since 2012.</p>
-
-    <hr>
-    <h3>On-Demand Media</h3>
-
-    <h4><a href="https://github.com/ProjectResound">Resound</a></h4>
-    <h5>A suite of applications to help with the storage, management, and distribution of digital audio.</h5>
-    <p>The goal of the project is that it's plug-and-play with existing systems, and is easy to use for any user in any given organization. This is a Knight funded project built by SCPR in collaboration with NYPR, WHYY, and NPR-DS.</p>
-
-    <hr>
-    <h3>Data Management</h3>
-
-    <hr>
-    <h3>IoT (Internet of Things)</h3>
-    
-    <hr>
-    <h3>Content Management Systems</h3>
-    
-    <hr>
-    <h3>Social Media & 3rd Party Platforms</h3>
-
-    <h4><a href="https://github.com/nypublicradio/audiogram/">Audiograms</a></h4>
-    <h5>A library for generating shareable videos from audio clips.</h5>
-    <p>Unlike audio, video is a first-class citizen of social media. It's easy to embed, share, autoplay, or play in a feed, and the major services are likely to improve their video experiences further over time. WNYC's solution to this problem was this library. Given a piece of audio to share on social media, this can generate a video with that audio and some basic accompanying visuals: a waveform of the audio, a theme for the show it comes from, and a caption. For more backstory, <a href="https://medium.com/@WNYC/e648e8a5f2e9">read this post</a>.</p>
-    
-    <hr>
-    <h3>Mobile Apps</h3>
-    
-    <hr>
-    <h3>Design Systems</h3>
-
-    <h4><a href="https://company-102826.frontify.com/d/sln5eJoFXZ3B/89-3-kpcc-southern-california-public-radio">KPCC's Style Guide</a></h4>
-    <h5>One guide to rule them all.</h5>
-    <p>There's a branding problem at KPCC. Lacking a dedicated marketing department, their Product Designer created a universal style guide that will inform product design, but also branding across other departments.</p>
-    
-    <hr>
-    <h3>Marketing</h3>
-    
-    <hr>
-    <h3>Analysis</h3>
-    
-    <hr>
-
-
-  
   </body>
 </html>

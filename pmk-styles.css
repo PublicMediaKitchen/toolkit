@@ -1,0 +1,66 @@
+<style>
+
+  @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Source+Serif+Pro|Space+Mono');
+
+  body {
+    background-color: #F0F0F1;
+    width: 1020px;
+
+  }
+
+  h1, h2 {
+  	font-family: 'Archivo Narrow', sans-serif;
+    color: #FF5142;
+    padding-left: 15px;
+  }
+
+  h3 {
+  	font-family: 'Space Mono', monospace;
+  	text-transform: uppercase;
+  	font-weight: 200;
+    color: #292C45;
+    padding-left: 15px;
+    margin: 2em auto 0;
+  }
+
+  h4 {
+  	font-family: 'Space Mono', monospace;
+  	font-weight: 700;
+    color: #292C45;
+    font-size: .75em;
+    padding-left: 15px;
+  }
+
+  p {
+    font-family: 'Source Serif Pro', serif;
+    color: #292C45;
+    margin: 0em auto 0em;
+    padding: 15px;
+    font-size: .9em;
+  }
+
+  a {
+  	color: #4C7DE4;
+  }
+
+  img.logo {
+    display: block;
+    margin: auto;
+  }
+
+  div.intro {
+    max-width: 1000px;
+    margin: 1em auto 0em;
+  }
+
+  div.category {
+    max-width: 1000px;
+    margin: 0em auto 0em;
+  }
+
+  div.listing {
+    max-width: 900px;
+    margin: 0em auto 0em;
+  }
+
+</style>
