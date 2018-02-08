@@ -1,6 +1,7 @@
 # Potluck Conference
 Based on survey results, we've found out that the following worked well for most attendees:
 * two day conference
+* Thursday and Friday worked out best for most attendees
 * 3 x 1.5 hour sessions per day
 * 30 minute breaks between sessions
 * reminders or tips on how to prep for the sessions beforehand
