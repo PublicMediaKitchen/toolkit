@@ -5,6 +5,10 @@ Based on survey results, we've found out that the following worked well for most
 * 3 x 1.5 hour sessions per day
 * 30 minute breaks between sessions
 * reminders or tips on how to prep for the sessions beforehand
+* off-site dinner the first day of the potluck
+* on-site light breakfast, lunch, and coffee throughout the day
+* etherpad for "after hours" meetups or suggestions (last day dinner plans, board games during lunch, studio tours, etc.)
+
 
 For an example of how the day was structured, refer to the [January Potluck Schedule](https://publicmediakitchen.github.io/toolkit/public-media-potluck-january-2018.html)
 
@@ -30,15 +34,18 @@ In picking a hosting city for Potluck Conferences, we should be mindful to pick 
 * put the daily schedule onto the potluck page
 * put out last call for attendees to potluck
 * decide who will be the note-takers for each session
+* talk to any vendors and nail down food & coffee supply
 
 ### 1 week before the potluck
 * finalize attendee list
-* send an email confirming the potluck schedule
+* send an email confirming the potluck schedule & ask for dietary restrictions
 * send an email to anyone leading a session to confirm they have what they need
+* confirm off-site dinner menu if necessary
 
 ### two days before the potluck
 * send an email re-iterating any logistics around the location of the Potluck (parking and walking tips, how to get into the building)
 * confirm any dining arrangements with restaurants if necessary
+* confirm all the rest of the food & coffee supplies
 * confirm that the conference site is set up (screens, dongles, wifi, chairs, snacks, water)
 
 ### the potluck
