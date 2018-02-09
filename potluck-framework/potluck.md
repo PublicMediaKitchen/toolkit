@@ -8,14 +8,16 @@ Based on survey results, we've found out that the following worked well for most
 
 For an example of how the day was structured, refer to the [January Potluck Schedule](https://publicmediakitchen.github.io/toolkit/public-media-potluck-january-2018.html)
 
+In picking a hosting city for Potluck Conferences, we should be mindful to pick from different parts of the US. For example, since there was already one on the West Coast, it's good to plan one on the East and then one in the Midwest.
+
 
 ## Instructions:
-### 3 months before potluck
+### at least 3 months before potluck
 * agree on dates for the potluck
 * agree on venue for the potluck
 * book the venue for the potluck if it needs to be booked far in advance
 
-### 2 months before potluck
+### at least 2 months before potluck
 * decide on a headliner session or overall topic
 * change the link and blurb on [Public Media Kitchen Toolkit](https://publicmediakitchen.github.io/toolkit/) to refer to the new potluck. Date, location, and a new page [like this](https://publicmediakitchen.github.io/toolkit/public-media-potluck-january-2018.html)
 * put as much logistical information as possible on the upcoming potluck page:
