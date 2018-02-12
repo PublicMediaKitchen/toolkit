@@ -8,6 +8,8 @@
 ## Who can attend
 Anyone who is working in a hands-on capacity on a product or software development team at a public media organization.  This is for people on the ground who make the design mockups, create roadmaps, and write code.
 
+Potluck is designed as a conversation between product teams. To ensure that value, we have to protect it from commercial interests and sales pitches.  There may be third parties interested in attending the calls or conference, but unless they are directly involved in public media, it's not recommended that they attend.
+
 ## Who can host
 Anyone can host, but our goal is to rotate the location so that attendees have a chance to visit across the US.
 
