@@ -38,4 +38,5 @@ KPCC uses [freeconference.com](https://freeconference.com).  Whatever service yo
 
 ## Call Notes Archive:
 * [12/19/2017](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-121917): fundraising and potluck conference agenda
-
+* [02/13/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-02132018): open source software
+* [02/27/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-02272018): database architecture
