@@ -31,6 +31,7 @@ KPCC uses [freeconference.com](https://freeconference.com).  Whatever service yo
 * Make sure the facilitator can see the etherpad for any questions that come up
 * At the start of _every call_, be sure to *explicitly and clearly introduce* the PMK, the calls, the role of the calls, the topic, and each speaker (first and last name, org, title).
 * In other words, avoid _too much_ informality and any hints of exclusivity and/or clubbiness.
+* Before the first speaker, address any housekeeping concerns (e.g., upcoming potluck). Repeat those concerns at the very end of the call.
 
 ### after the call
 * have the note-taker revise or clean up the notes
