@@ -40,3 +40,9 @@ KPCC uses [freeconference.com](https://freeconference.com).  Whatever service yo
 * [12/19/2017](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-121917): fundraising and potluck conference agenda
 * [02/13/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-02132018): open source software
 * [02/27/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-02272018): database architecture
+* [03/13/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-03132018): js cage match (React, Vue, Angular)
+* [03/27/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-03272018): js cage match 2 (Ember, isomorphic React)
+* [04/10/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-04102018): mobile app development
+* [04/24/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-04242018): css management
+* [05/08/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-05082018): automated tests
+* [05/22/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-05222018): data visualizations
