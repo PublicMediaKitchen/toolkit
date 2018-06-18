@@ -29,7 +29,8 @@ KPCC uses [freeconference.com](https://freeconference.com).  Whatever service yo
 * Remind participants of how to unmute (for example, *6)
 * Make sure the designated note-taker is ready on the etherpad
 * Make sure the facilitator can see the etherpad for any questions that come up
-
+* At the start of _every call_, be sure to *explicitly and clearly introduce* the PMK, the calls, the role of the calls, the topic, and each speaker (first and last name, org, title).
+* In other words, avoid _too much_ informality and any hints of exclusivity and/or clubbiness.
 
 ### after the call
 * have the note-taker revise or clean up the notes
