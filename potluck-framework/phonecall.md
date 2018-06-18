@@ -11,12 +11,11 @@ The hosting group for the upcoming potluck is expected to also host calls leadin
 ## Instructions
 
 ### a week before the call
-* decide a topic for the call
+* decide on a topic for the call
 * try your best to diversify the talks as much as possible -- keeping them open to devs, designers, PMs, etc.
 * recruit 1-3 leaders for the talk (#public-media-kitchen is your best bet)
 * send an email to everyone on the contact list (BCC please) with the call topic or agenda
 * if there are specific people you want to lead a talk, send a separate email to them to confirm that they can do it
-
 
 ### a day before the call
 * send a reminder email to everyone on the contact list with any updates to the agenda (BCC please)
