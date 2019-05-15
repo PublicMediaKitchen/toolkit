@@ -15,11 +15,13 @@ The hosting group for the upcoming potluck is expected to also host calls leadin
 * try your best to diversify the talks as much as possible -- keeping them open to devs, designers, PMs, etc.
 * recruit 1-3 leaders for the talk (#public-media-kitchen is your best bet)
 * send an email to everyone on the contact list (BCC please) with the call topic or agenda
+* post an @here message in the #public-media-kitchen slack channel in npr+friends
 * if there are specific people you want to lead a talk, send a separate email to them to confirm that they can do it
 
 ### a day before the call
 * send a reminder email to everyone on the contact list with any updates to the agenda (BCC please)
 * send a reminder email to anyone who will be leading a talk and make sure there are links on the etherpad to anything that requires context
+* message a @here reminder to the #public-media-kitchen slack channel
 
 ### the call
 KPCC uses [freeconference.com](https://freeconference.com).  Whatever service you use, make sure to:
