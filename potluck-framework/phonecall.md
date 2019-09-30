@@ -51,3 +51,8 @@ KPCC uses [freeconference.com](https://freeconference.com).  Whatever service yo
 * [04/24/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-04242018): css management
 * [05/08/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-05082018): automated tests
 * [05/22/2018](https://etherpad.scprdev.org/p/PublicMediaPotluck_Call-05222018): data visualizations
+* [10/23/2018]:
+* [11/05/2018](https://etherpad.scprdev.org/p/pmk-call-2018-11-05): project management in public media organizations
+* [12/04/2018]: elections fun!
+* [05/14/2019](https://etherpad.scprdev.org/p/pmk_call_05-2019): KQED potluck feedback and CRMs
+* [06/11/2019](https://etherpad.scprdev.org/p/PMK-call_06-11-19): Public Radio Incubation Lab and core web technologies
