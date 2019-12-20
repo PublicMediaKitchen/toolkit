@@ -29,7 +29,7 @@ KPCC uses [freeconference.com](https://freeconference.com).  Whatever service yo
 * Turn off name announce
 * Put it in QA mode or some other mode so that everyone except the host is muted by default but participants can unmute themselves.
 * Dial into the conference call five minutes beforehand to make sure all audio is set up
-* Remind participants of how to unmute (for example, *6)
+* Remind participants of how to unmute (for example, \*6)
 * Make sure the designated note-taker is ready on the etherpad
 * Make sure the facilitator can see the etherpad for any questions that come up
 * At the start of _every call_, be sure to *explicitly and clearly introduce* the PMK, the calls, the role of the calls, the topic, and each speaker (first and last name, org, title).
@@ -38,21 +38,4 @@ KPCC uses [freeconference.com](https://freeconference.com).  Whatever service yo
 
 ### after the call
 * have the note-taker revise or clean up the notes
-* update the Call Notes Archive (below) with a link to the notes
-
-
-## Call Notes Archive:
-* [12/19/2017](etherpad/PublicMediaPotluck_Call-121917.html): fundraising and potluck conference agenda
-* [02/13/2018](etherpad/PublicMediaPotluck_Call-02132018.html): open source software
-* [02/27/2018](etherpad/PublicMediaPotluck_Call-02272018.html): database architecture
-* [03/13/2018](etherpad/PublicMediaPotluck_Call-03132018.html): js cage match (React, Vue, Angular)
-* [03/27/2018](etherpad/PublicMediaPotluck_Call-03272018.html): js cage match 2 (Ember, isomorphic React)
-* [04/10/2018](etherpad/PublicMediaPotluck_Call-04102018.html): mobile app development
-* [04/24/2018](etherpad/PublicMediaPotluck_Call-04242018.html): css management
-* [05/08/2018](etherpad/PublicMediaPotluck_Call-05082018.html): automated tests
-* [05/22/2018](etherpad/PublicMediaPotluck_Call-05222018.html): data visualizations
-* 10/23/2018:
-* [11/05/2018](etherpad/pmk-call-2018-11-05.html): project management in public media organizations
-* 12/04/2018: elections fun!
-* [05/14/2019](etherpad/pmk_call_05-2019.html): KQED potluck feedback and CRMs
-* [06/11/2019](etherpad/PMK-call_06-11-19.html): Public Radio Incubation Lab and core web technologies
+* update the [Call Notes Archive](archive/phonecall.html) with a link to the notes
