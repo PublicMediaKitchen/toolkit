@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>pmk_call_05-2019</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+}
+ul.indent {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+body > ol {
+  counter-reset: first second third fourth fifth sixth seventh eigth ninth tenth eleventh twelth thirteenth fourteenth fifteenth sixteenth;
+}
+ol > li:before {
+  content: counter(first) ". ";
+  counter-increment: first;
+}
+ol > ol > li:before {
+  content: counter(first) "." counter(second) ". ";
+  counter-increment: second;
+}
+ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) ". ";
+  counter-increment: third;
+}
+ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) ". ";
+  counter-increment: fourth;
+}
+ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) ". ";
+  counter-increment: fifth;
+}
+ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) ". ";
+  counter-increment: sixth;
+}
+ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) ". ";
+  counter-increment: seventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) ". ";
+  counter-increment: eigth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) ". ";
+  counter-increment: ninth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) ". ";
+  counter-increment: tenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) ". ";
+  counter-increment: eleventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) ". ";
+  counter-increment: twelth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) ". ";
+  counter-increment: thirteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) ". ";
+  counter-increment: fourteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) ". ";
+  counter-increment: fifteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) "." counter(sixthteenth) ". ";
+  counter-increment: sixthteenth;
+}
+ol {
+  text-indent: 0px;
+}
+ol > ol {
+  text-indent: 10px;
+}
+ol > ol > ol {
+  text-indent: 20px;
+}
+ol > ol > ol > ol {
+  text-indent: 30px;
+}
+ol > ol > ol > ol > ol {
+  text-indent: 40px;
+}
+ol > ol > ol > ol > ol > ol {
+  text-indent: 50px;
+}
+ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 60px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 70px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 80px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 90px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 100px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 110px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 120px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 130px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 140px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 150px;
+}
+
+</style>
+</head>
+<body>
+<strong>Public Media Kitchen Community Call | May&nbsp; 14, 2019</strong><br><strong>Every other</strong> <strong>Tuesday @ 12pm Eastern - 9am Pacific</strong><br><br><strong>*****CALL-IN NUMBER*****</strong><br>1-712.&nbsp;<br><ul class="bullet"><li>Access code: 170 4041</li><li><strong>*6 to unmute!</strong></li></ul>______________________________________<br><br>Welcome to the call!&nbsp;<br><br><strong>ROLL CALL: Who are you? Where are you from? What do you do?</strong><br><ul class="bullet"><li>Louise Yang &#x2F; KPCC &#x2F; Lead Software Engineer</li><li>Vijay Singh &#x2F; KPCC &#x2F; Product Manager</li><li>Luke Lam &#x2F; KQED&#x2F; Technical Program Manager</li><li>Alan Melson &#x2F; KERA &#x2F; VP-Digital</li><li>Justin Bowers &#x2F; KERA &#x2F; Sr Digital Developer&#x2F;Designer</li><li>Jess Snyder &#x2F; WETA &#x2F; Sr Manager, Web Systems</li><li>Matt Aho &#x2F; MPR&#x2F;APM &#x2F; Web Developer</li><li>Justin Steen &#x2F; MPR&#x2F;APM &#x2F; Software Engineer</li><li>Tim Olson, KQED, Chief Digital Officer</li><li>Nikki Jones&#x2F;NPR Digital Media&#x2F;Agilist</li><li>David Gorsline&#x2F;NPR Digital Media&#x2F;Software Engineer</li><li>Jason Phan &#x2F; MPR&#x2F;APM &#x2F; Associate Web Developer</li><li>Tiffany Campbell, WBUR, Exec Editor, Digital</li><li>Renee Thompson, Capital Public Radio, Digital Projects Manager</li><li>Erin Ozmat &#x2F; WNYC &#x2F; Sr. Product Manager</li><li>Liz Berg&#x2F;WNYC, Sr. Product Manager</li><li>Rachel Lieberman&#x2F;WNYC, Support Analyst CRM</li><li>Andrew Kuklewicz, PRX, CTO</li><li>Ryan Cavis, PRX technical lead</li><li>Richard Baniewicz, WHYY, director, online</li><li>Dina Nawas&#x2F;NPR Digital Media&#x2F;Product Manager, CRM &lt;-- Salesforce questions can be answered by her!</li><li>Lauren Bracey Scheidt&#x2F;NPR Digital Media&#x2F;Director of Product</li><li>Ryan Patecell&#x2F;NPR Digital Media&#x2F;Product Manager, Audience Engagement</li><li>Frank J. G&#243;mez, NPR Digital Media - Software Engineer</li><li>Matthew Mcclintoc - WBEZ&#x2F;Chicago Public Media - Operations Developer</li><li>Dan Newman&#x2F;NPR Digital Media&#x2F;Director, Product Design</li><li>Alex Diaz&#x2F;NPR Digital Media&#x2F;Scrum Master</li><li>Cp Richardson&#x2F;NPR Diigital Media&#x2F;Scrum Master</li><li>Dave Moore, Developer, WBUR</li></ul><br><strong>*****TODAY&#x27;S TOPICS</strong>*****<br><br><strong>Survey Results</strong><br><ul class="bullet"><li>Louise Yang (KPCC)</li></ul><br><strong>CRM&#x27;s</strong><br><ul class="bullet"><li>Vijay Singh (KPCC)</li><ul class="bullet"><li>We rely on APM for some services for our CRM. Workflow and organizational issues. We don&#x27;t have anyone in house at KPCC to work on the CRM. Good: we don&#x27;t have to think about anything related about the CRM. Terrible: we don&#x27;t have resources to make SCPR&#x2F;KPCC specific updates or changes. APM is supportive w&#x2F; getting changes done, but still some workflow issues b&#x2F;c there&#x27;s not much connective tissue between live events and websites.</li><li>We&#x27;re using Salesforce and Enterprise.</li><li>Enterprise is customized heavily, so hard to migrate into Salesforce</li><li>1st priority: Core team at APM is updating better management of data to make sure all the data is flowing the right way.</li><li>At KPCC: looking at other solutions other folks are using</li><li>Salesforce Native is what we&#x27;re using</li><li>NGO Connect was acquired by Salesforce months ago. KQED is watching what happens on that.</li></ul><li>Justin &amp; Alan (KERA)</li><ul class="bullet"><li>Team Approach since 2004 -- being sunsetted. Outdated.</li><li>3 membership programs (1 for each station: TV, 2 radio stations)</li><li>Tessitura -- created for the Metro Opera in NY</li><ul class="bullet"><li>product support was fantastic, flexible</li></ul><li>Convened an internal core team w&#x2F; 12-13 stakeholder</li><li>18 month implementation process</li><li>They had a PM who led the project</li><li>Migrated completely off of Team Approach</li><li>Using existing form for donation form and phone donations</li><ul class="bullet"><li>updated the mapping to work with Tessitura</li></ul><li>TNEW -- ticketing and web side of client app</li><ul class="bullet"><li>got up to speed quickly and prod env set up to feed into Tessitura</li><li>flexible, allows for custom development</li><li>thinking of converting it into a member portal</li><ul class="bullet"><li>self management&#x2F;serve by members</li></ul></ul><li>Well documented and clean API to go into their core system</li><ul class="bullet"><li>Good support, responsive</li></ul><li>used for EFT conversions and credit card expiration</li><li>All major gifts and givers are in Tessitura</li><li>Quick examples of weird public media uses cases:</li><ul class="bullet"><li>Gifts functionality was around e-commerce model (ie: musem giftshop)</li><li>Not set up for pledge drive scheduling, but KERA worked closely with Tessitura to adapt that</li><li>Seasons vs. Fiscal Year campaign</li></ul><li>Important: Personalization -- Tessitura is focused on that</li><ul class="bullet"><li>T rolled out a BI suite</li><li>integrated w&#x2F; emarketing client</li></ul></ul><li>Andrew Kuklewicz PRX</li><ul class="bullet"><li>We&#x27;ve been using <a href="https&#x3a;&#x2F;&#x2F;idealistconsulting&#x2e;com&#x2F;">https:&#x2F;&#x2F;idealistconsulting.com&#x2F;</a> for SalesForce consulting</li><li>(OPB also used them)</li></ul></ul><br><strong>Potluck in Big D(allas)</strong><br>Will this be before or after PMDMC? (Or concurrent?) Would be good to know for travel booking...<br>Is there an agenda yet for the Potluck and a RSVP form?<br><ul class="indent"><li>Not yet, but we will send out an email and slack message once we have it.&nbsp; If you have something you&#x27;d definitely want to talk to other stations about, let Louise (KPCC), Vijay (KPCC), Alan (KERA) or Justin (KERA) know</li></ul>July 11-12<br><br><strong>*****Questions&#x2F;comments*****</strong><br><ul class="bullet"><li>Are there big differences between your membership &quot;types&quot;? Does it easily support that sort of variety?</li><ul class="bullet"><li>Not huge differences, but T does support that amount of differences</li><li>Spent a lot of time going over details of data structure</li><li>Passport access was one difference (Video on Demand), KERA FM members</li></ul></ul>Question: why didn&#x27;t you use Tessitura&#x27;s shopping cart and are using ACD Direct?<br><ul class="indent"><li>Decided Tessitura needed more time to evolve that product (w&#x2F; premiums management). ACD was already doing that.</li><li>Still ongoing conversation for phase 2.</li></ul>Any advanced &#x2F; future features you&#x27;re thinking about for the ticketing side?<br><ul class="indent"><li>KERA: Using it in a limited way w&#x2F; car raffle in TNEW</li><li>Using TNEW to power web forms for car raffle ticket</li><li>Very flexible w&#x2F; how it&#x27;s displayed -- a standard raffle ticket == a seat number</li><li>Capped at 1500 tickets</li><li>Some station events for music station</li><ul class="indent"><li>thinking of using Tesitura for that and getting rid of ticket fee</li></ul></ul><br>Can anyone on Salesforce who works with an &#8220;implementation partner&#8221; comment on which partner they are working with and how you like working with them?<br><ul class="indent"><li>Andrew PRX -- on phase 2 of moving over to Salesforce. Idealist Consulting They like them and good support.</li><li><br></li></ul><br>Dina what is your contact information? (can I connect to you? tolson@kqed.org; Tim Olson, KQED)<br>dnawas@npr.org<br><br><strong>*****COMING UP*****</strong><br><ul class="bullet"><li>Next call &#8211; May 28th</li><li><u>Got an idea for a future topic for a call, or something we should consider tackling during a meetup?</u> Let us know below, or fill out this form: <a href="https&#x3a;&#x2F;&#x2F;goo&#x2e;gl&#x2F;forms&#x2F;JTtFNbSduotdHGhj2">https:&#x2F;&#x2F;goo.gl&#x2F;forms&#x2F;JTtFNbSduotdHGhj2</a></li></ul><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

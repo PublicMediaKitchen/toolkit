@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>potluck-2018-tips-n-tricks</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+}
+ul.indent {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+body > ol {
+  counter-reset: first second third fourth fifth sixth seventh eigth ninth tenth eleventh twelth thirteenth fourteenth fifteenth sixteenth;
+}
+ol > li:before {
+  content: counter(first) ". ";
+  counter-increment: first;
+}
+ol > ol > li:before {
+  content: counter(first) "." counter(second) ". ";
+  counter-increment: second;
+}
+ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) ". ";
+  counter-increment: third;
+}
+ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) ". ";
+  counter-increment: fourth;
+}
+ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) ". ";
+  counter-increment: fifth;
+}
+ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) ". ";
+  counter-increment: sixth;
+}
+ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) ". ";
+  counter-increment: seventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) ". ";
+  counter-increment: eigth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) ". ";
+  counter-increment: ninth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) ". ";
+  counter-increment: tenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) ". ";
+  counter-increment: eleventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) ". ";
+  counter-increment: twelth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) ". ";
+  counter-increment: thirteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) ". ";
+  counter-increment: fourteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) ". ";
+  counter-increment: fifteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) "." counter(sixthteenth) ". ";
+  counter-increment: sixthteenth;
+}
+ol {
+  text-indent: 0px;
+}
+ol > ol {
+  text-indent: 10px;
+}
+ol > ol > ol {
+  text-indent: 20px;
+}
+ol > ol > ol > ol {
+  text-indent: 30px;
+}
+ol > ol > ol > ol > ol {
+  text-indent: 40px;
+}
+ol > ol > ol > ol > ol > ol {
+  text-indent: 50px;
+}
+ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 60px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 70px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 80px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 90px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 100px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 110px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 120px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 130px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 140px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 150px;
+}
+
+</style>
+</head>
+<body>
+Tips &amp; Tricks<br><br>slate -- window management <a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;jigish&#x2F;slate">https:&#x2F;&#x2F;github.com&#x2F;jigish&#x2F;slate</a><br>ngrok -- opens a tunnel to your dev machine<br>pasteapp -- clipboard management<br>jq -- awk, but for json<br>MITM -- http proxy<br>Paintcode -- generates graphics assets for an app (iOS), can import from sketch <a href="https&#x3a;&#x2F;&#x2F;www&#x2e;paintcodeapp&#x2e;com&#x2F;">https:&#x2F;&#x2F;www.paintcodeapp.com&#x2F;</a><br>Codable -- encode&#x2F;decode model objects for iOS dev<br><br>AWS lambda tricks:<br><ul class="indent"><li>* override the logging</li><li>* setup metrics on the log group</li><li><br></li></ul>Chrome developer tool, wait() shows when the promise resolves<br><br>console.table(obj) -- show object in table format<br><br>zenhub -- track issues across repos<br><br>put gem management in docker-compose volumes<br><br>dinghy docker -- faster, friendlier docker for osx, web proxy, runs dns server inside<br><br>bisect in rspec -- gives you seed of how it randomized the tests.&nbsp; can rerun exact order of tests if you have seed<br><br>semantic-release -- version management &amp; package publishing<br><br>commitizine -- tooling around git commits<br><br>bartender<br><br><a href="https&#x3a;&#x2F;&#x2F;foundation&#x2e;zurb&#x2e;com&#x2F;emails&#x2F;email&#x2d;templates&#x2e;html">https:&#x2F;&#x2F;foundation.zurb.com&#x2F;emails&#x2F;email-templates.html</a><br><br>document crisis, complex issues, prolongued bugs<br><br>thirty-thirty (app) -- create a flow of your day, time management<br><br>q-button on trello -- just filter for projects you&#x27;re on<br><br>set accessibility hot key to zoom to quickly zoom in on screen<br><br>Hey taco -- give people thanks on slack<br><br>geekbot -- virtual standup in the same timezone<br>
+</body>
+</html>

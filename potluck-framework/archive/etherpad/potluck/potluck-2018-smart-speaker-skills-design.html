@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>potluck-2018-smart-speaker-skills-design</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+}
+ul.indent {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+body > ol {
+  counter-reset: first second third fourth fifth sixth seventh eigth ninth tenth eleventh twelth thirteenth fourteenth fifteenth sixteenth;
+}
+ol > li:before {
+  content: counter(first) ". ";
+  counter-increment: first;
+}
+ol > ol > li:before {
+  content: counter(first) "." counter(second) ". ";
+  counter-increment: second;
+}
+ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) ". ";
+  counter-increment: third;
+}
+ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) ". ";
+  counter-increment: fourth;
+}
+ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) ". ";
+  counter-increment: fifth;
+}
+ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) ". ";
+  counter-increment: sixth;
+}
+ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) ". ";
+  counter-increment: seventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) ". ";
+  counter-increment: eigth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) ". ";
+  counter-increment: ninth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) ". ";
+  counter-increment: tenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) ". ";
+  counter-increment: eleventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) ". ";
+  counter-increment: twelth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) ". ";
+  counter-increment: thirteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) ". ";
+  counter-increment: fourteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) ". ";
+  counter-increment: fifteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) "." counter(sixthteenth) ". ";
+  counter-increment: sixthteenth;
+}
+ol {
+  text-indent: 0px;
+}
+ol > ol {
+  text-indent: 10px;
+}
+ol > ol > ol {
+  text-indent: 20px;
+}
+ol > ol > ol > ol {
+  text-indent: 30px;
+}
+ol > ol > ol > ol > ol {
+  text-indent: 40px;
+}
+ol > ol > ol > ol > ol > ol {
+  text-indent: 50px;
+}
+ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 60px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 70px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 80px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 90px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 100px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 110px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 120px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 130px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 140px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 150px;
+}
+
+</style>
+</head>
+<body>
+<strong>***Smart Speaker Skills Roundup***</strong><br><br><br><strong>WBEZ</strong><br>Skills they have&nbsp;<br><ul class="bullet"><li>Vocalo Radio music station&nbsp;</li></ul><br>Wish they could<br><ul class="bullet"><li>Enable additional features (metadata, what&#8217;s next)</li><li>BEZ skill (live stream, using API endpoint)&nbsp;</li><ul class="bullet"><li>Provide something that&#8217;s not a live stream</li><li>Skip, pause, resume</li></ul></ul><br>Exploring<br><ul class="bullet"><li>Flash briefing</li><li>Additional programming&nbsp;</li><ul class="bullet"><li>Newcasts</li></ul><li>Reading headlines</li><li>Google Home</li></ul><br><br><strong>WBUR</strong><br>Skills they have<br><ul class="bullet"><li>Add WBUR to flash briefings&nbsp;</li><li>&#8220;Play WBUR&#8221; on Google and Alexa</li></ul><br>Limitations<br><ul class="bullet"><li>Making sure people can get to original BUR content as soon as possible</li></ul><br>Wish they could<br><ul class="bullet"><li>Robust app that gives back WBUR content</li><li>Had more time to look at metrics</li><li>Figure out levels (audio is super quiet right now)</li><ul class="bullet"><li>A common issue is the audio levels are low</li><li>KPCCBen wrote a skill to boost the audio levels of the news cast</li></ul></ul><br><br><strong>WGBH</strong><br>Skills they have<br><ul class="bullet"><li>WGBH skill &#8220;Alexa, play WGBH&#8221; (instead of TuneIn)</li><ul class="bullet"><li>Vendor: Dream Decks <strong>(sp?)</strong></li></ul><li>Skill for specific daily show (plays when lives, plays most recent ep)</li><li>Frontline (play most recent podcast ep)</li><li>Flash briefing for local content</li></ul><br>Exploring<br><ul class="bullet"><li>Kids skills (choose your own adventure)&nbsp;</li></ul><br><br><strong>WHYY</strong><br>Exploring<br><ul class="bullet"><li>Trying not to duplicate existing skills (e.g. live stream)</li><li>30 year Fresh Air archive</li><ul class="bullet"><li>Working with Audioburst (searches sound clips)</li><li>Have to build some kind of user-facing product using archive</li></ul><li>Making on-demand audio + podcasts available</li><li>Children&#8217;s podcast choose your own adventure</li></ul><br>Limitations<br><ul class="bullet"><li>TIme</li><li>Money</li></ul><br><br><strong>Marketplace</strong><br>Skills they have<br><ul class="bullet"><li>Flash briefing for three shows</li></ul><br>Exploring<br><ul class="bullet"><li>Basic skill</li><ul class="bullet"><li>Listen to latest show</li><li>Tell me what I&#8217;m listening to</li></ul><li>Skills around content initiative&#x2F;specific projects</li><li>How to better discoverability of audio</li><ul class="bullet"><li>Alexa + Fire TV</li></ul></ul><br><br><strong>APM&#x2F;MPR</strong><br>Skills they have<br><ul class="bullet"><li>Flash briefings</li><ul class="bullet"><li>Newsroom workflow has changed to accommodate for Alexa</li></ul><li>The Current</li><ul class="bullet"><li>Play&#x2F;pause</li><li>Tell me the name of the host&#x2F;show&#x2F;song</li><li>Ratings app (if authenticated)</li><ul class="bullet"><li>Hear rating of song</li><li>Rate a song</li><li>Authentication: if you have an OAuth system, setting up authentication over Alexa isn&#x27;t too difficult&nbsp;</li></ul><li>Song requests</li><ul class="bullet"><li>Sends request via email to a DJ</li></ul><li>Song of the day</li><li><strong>Available on Public Media Kitchen: </strong><a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;APMG&#x2F;mpr&#x2d;alexa&#x2d;base"><strong>https:&#x2F;&#x2F;github.com&#x2F;APMG&#x2F;mpr-alexa-base</strong></a><strong> + </strong><a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;APMG&#x2F;the&#x2d;current&#x2d;alexa"><strong>https:&#x2F;&#x2F;github.com&#x2F;APMG&#x2F;the-current-alexa</strong></a></li></ul></ul><br>Exploring<br><ul class="bullet"><li>Text-to-speech for Alexa to read headlines&#x2F;briefings</li><li>Streaming (Stream Guyz vs. experiments in house)</li><li>Mystery songs</li><li>Classical music trivia&#x2F;puzzles</li><li>Podcasts as storytelling&#x2F;audiobook (e.g. In the Dark)</li><li>Kids podcasts (Brains On)</li><li>Using smart speakers to dig into archive</li><ul class="bullet"><li>Elasticsearch + smart speakers</li></ul></ul><br><br><strong>NPR</strong><br>Skills they have<br><ul class="bullet"><li>Flash briefings</li><li>NPR One skill</li></ul><br>Exploring<br><ul class="bullet"><li>NPR One skill&nbsp;</li><ul class="bullet"><li>Rewriting from third-party initial code</li><li>Improving the user experience</li></ul><li>Station streaming to replace TuneIn integration</li><ul class="bullet"><li>&quot;Play WXYZ&quot; or &quot;Play NPR&quot; launches local NPR stream instead of TuneIn</li><li>If WXYZ has their own skill, it will point there instead</li></ul><li>Podcasting skill</li><ul class="bullet"><li>Access entire podcasting catalog</li><li>On hold: Amazon is working on their own skill that pulls from a provided catalogue of content</li></ul><li>WWDTM quiz</li><li>Ask NPR skill</li><ul class="bullet"><li>&quot;Ask NPR to explain the debt ceiling&quot; brings up an NPR story about the debt ceiling</li></ul><li>Visual newscast skill</li><ul class="bullet"><li>Echo Spot and Echo Show</li><li>What does public radio&#x27;s position look like when it comes to visuals? Do we want to compete in that space?</li></ul><li>Google Home</li><ul class="bullet"><li>Standalone &quot;Actions&quot; are possible, but audio possibilities are limited&nbsp;</li></ul><li>Universal taxonomy of utterances</li><ul class="bullet"><li>Can all platforms share one set of utterances?</li></ul><li><strong>Time split between building skills *and* learning more about the process</strong></li></ul><br><br><strong>WNYC</strong><br>Skills they have<br><ul class="bullet"><li>Flash briefing</li><ul class="bullet"><li>Publish date needs to be in last seven days</li></ul><li>&quot;Play WNYC&quot; without iHeart&#x2F;TuneIn</li><li>Play stories based on topic</li></ul><br>Exploring<br><ul class="bullet"><li>Login&#x2F;auth</li><ul class="bullet"><li>Don&#x27;t build it on top of Amazon Cognito</li></ul><li>Play specific program</li></ul><br>Limitations<br><ul class="bullet"><li>Interaction pathways</li><li>Taxonomy&#x2F;utterances</li></ul><br><br><strong>PRX</strong><br>Skills they have<br><ul class="bullet"><li>None, Radio Public is working more on consumer-facing products</li></ul><br>Exploring<br><ul class="bullet"><li>Audio For Good hackfest</li><ul class="bullet"><li>Choose your own adventure skill</li></ul><li>Radio Public</li><ul class="bullet"><li>Working on skills, plus other products for other smart speakers</li></ul><li>Audio clip remix</li><li>If a skill, what does it do?</li><ul class="bullet"><li>Thinking about marketing&#x2F;membership messaging</li></ul><li>Kids Listen community (<a href="http&#x3a;&#x2F;&#x2F;www&#x2e;kidslisten&#x2e;org&#x2F;&#x29;">http:&#x2F;&#x2F;www.kidslisten.org&#x2F;)</a></li><li>Public radio podcast skill</li></ul><br><br><strong>KPCC</strong><br>Skills they have<br><ul class="bullet"><li>Flash briefing</li><ul class="bullet"><li>Currently just the newscast</li><li>Future improvements</li></ul></ul><br>Exploring<br><ul class="bullet"><li>Search for news by topic</li><ul class="bullet"><li>Unsure if that&#x27;s something users want</li></ul><li>Master skill</li><ul class="bullet"><li>Play live stream</li><li>Rewind the live stream</li><li>Ask for events</li><li>Was than an earthquake?</li></ul><li>News quiz</li><li>Survey skill</li><li>Interactive voter guide</li></ul><br>Limitations<br><ul class="bullet"><li>Alexa is used passively</li><li>Resources &#8211; content generation</li></ul><br><br><strong>KQED</strong><br>Skills they have<br><ul class="bullet"><li>None</li></ul><br>Exploring<br><ul class="bullet"><li>Longform journalism&nbsp;</li></ul><br><br>**Check out Mosiac**<br><br><br><strong>KUOW</strong><br>Skills they have<br><ul class="bullet"><li>Amazon&#x27;s donation app (choose what org you want to donate to)</li></ul><br>Exploring<br><ul class="bullet"><li>Flash briefing</li><li>Listen skill</li><li>Collaborating on future skills</li><li>Ratings skill for podcast focus groups</li><ul class="bullet"><li>Super-listeners help vet podcast pitches</li></ul></ul><br>Limitations<br><ul class="bullet"><li>No in-house devs</li></ul><br><br><strong>WAMU</strong><br>Skills they have<br><ul class="bullet"><li>None</li></ul><br>Exploring<br><ul class="bullet"><li>Flash briefings first</li><ul class="bullet"><li>Can stations fold their content into NPR&#x27;s flash briefings&#x2F;newscasts?</li></ul></ul><br><br><br><strong>Discussion</strong><br><ul class="bullet"><li>What&#x27;s possible with donations + Alexa?</li></ul>
+</body>
+</html>

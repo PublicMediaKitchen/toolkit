@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>potluck-2018-site-overhaul</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+}
+ul.indent {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+body > ol {
+  counter-reset: first second third fourth fifth sixth seventh eigth ninth tenth eleventh twelth thirteenth fourteenth fifteenth sixteenth;
+}
+ol > li:before {
+  content: counter(first) ". ";
+  counter-increment: first;
+}
+ol > ol > li:before {
+  content: counter(first) "." counter(second) ". ";
+  counter-increment: second;
+}
+ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) ". ";
+  counter-increment: third;
+}
+ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) ". ";
+  counter-increment: fourth;
+}
+ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) ". ";
+  counter-increment: fifth;
+}
+ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) ". ";
+  counter-increment: sixth;
+}
+ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) ". ";
+  counter-increment: seventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) ". ";
+  counter-increment: eigth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) ". ";
+  counter-increment: ninth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) ". ";
+  counter-increment: tenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) ". ";
+  counter-increment: eleventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) ". ";
+  counter-increment: twelth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) ". ";
+  counter-increment: thirteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) ". ";
+  counter-increment: fourteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) ". ";
+  counter-increment: fifteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) "." counter(sixthteenth) ". ";
+  counter-increment: sixthteenth;
+}
+ol {
+  text-indent: 0px;
+}
+ol > ol {
+  text-indent: 10px;
+}
+ol > ol > ol {
+  text-indent: 20px;
+}
+ol > ol > ol > ol {
+  text-indent: 30px;
+}
+ol > ol > ol > ol > ol {
+  text-indent: 40px;
+}
+ol > ol > ol > ol > ol > ol {
+  text-indent: 50px;
+}
+ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 60px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 70px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 80px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 90px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 100px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 110px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 120px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 130px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 140px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 150px;
+}
+
+</style>
+</head>
+<body>
+kpcc and whyy relaunched their sites<br><br>why would we ever want to overhaul the site??<br><ul class="indent"><li>kpcc:</li><ul class="indent"><li>* handed to us from stakeholders</li><li>* started w&#x2F; the homepage even though it was least valuable, but stakeholders gonna stake</li><li>* we wanted to tackle it in a strategic approach</li><li>* wanted an overall unification of our brand across all digital products</li><li>* started making the homepage a little more modern and shiny</li><li>* thinking about our brand in the future</li><li>* evolved from newspaper inspiried</li><li>* radical change on the homepage drove the redesign of other pages</li><li>* didn&#x27;t ship a whole bunch of stuff around in interior pages</li><li>* wanted to be inline w&#x2F; the vision of our digital future</li><li>* took a good year to redesign the homepage b&#x2F;c of stakeholder feedback</li><ul class="indent"><li>* when unifying the rest of the site, just update aesthetics, but didn&#x27;t reorganize information</li></ul><li>* moment where we wanted to introduce &quot;prove things with data&quot; to rest of organization</li><li>* homepage was a very heavy lift for digital editorial teams</li><ul class="indent"><li>* we wanted to be more honest w&#x2F; what we were creating on a daily basis</li><li>* most traffic goes to articles, not homepage</li></ul><li>* beta period: managing the new homepage while still supporing the old homepage</li><ul class="indent"><li>* we doubled the editorial team&#x27;s workload for 2 months. Oops!</li><li>* 2 months b&#x2F;c we didn&#x27;t see a significant enough change in retention in less than 2 months</li><ul class="indent"><li>* in 1 month ,we were pleased, but other stakeholders were not. they wanted another month</li><li>* learning curve for editorial on what type of content to put on the new homepage. editorial slowly understood how the page flowed, experimented w&#x2F; different content types</li><li>* editorial team didn&#x27;t have time to understand the new workflow till they were forced to in beta</li></ul></ul><li>* Question: Did the new homepage improve page views, user views?</li><ul class="indent"><li>* slightly</li></ul><li>* Product team: solve user&#x27;s problems first, not business problems</li><ul class="indent"><li>* explained user-first design process</li><ul class="indent"><li>* had better user tests</li><li>* more opportunities to iterate</li><li>* better serve our mission</li></ul><li>* balance b&#x2F;t stakeholder and user needs</li><ul class="indent"><li>* empathy for business stakeholders vs. empathy for end users</li><li>* navigating edge cases and desire to please everyone</li><li>* some features are the cost of doing business</li></ul></ul><li>* had to teach the rest of the org. how to think more strategically, get out of personal bias</li><ul class="indent"><li>* idea of the news hound is WRONG</li></ul><li>* goals set around: return users three visits w&#x2F;i the week, scroll depth</li><ul class="indent"><li>* compared scroll rate on old vs. new homepage</li><li>* increaed retention and visits by 5% in a week on new homepage</li><li>* scroll depth increased 5-7x</li></ul><li>* how to get folks comfortable w&#x2F; a product development process</li><ul class="indent"><li>* &quot;Your opinion although interesting, is irrelevant.&quot;</li><li>* When we say no, or ask why -- we&#x27;re not trying to add extra work</li><li>* Let&#x27;s design a test to prove something out</li><li>* remind people that we&#x27;re on the same team</li></ul><li>* What we ended up with: scpr.org</li><ul class="indent"><li>* different versions tweaked based on user testing</li><li>* large &quot;listen live&quot; button still at the top</li><li>* people are more comfortable scrolling</li><li>* the cheese (dopamine hit at the end fo the homepage) ATARI method -- reward at the end</li><ul class="indent"><li>* SoCal, What&#x27;s Good?</li><ul class="indent"><li>* regenerates new content each time about different places to visit</li><li>* we hear direct user feedback about liking the cheese</li></ul><li>* builds a habit around particular product</li></ul><li>* article page</li><ul class="indent"><li>* play button is more prominent at the top left, like our homepage, trains users that it&#x27;s at the top left</li><li>* previous site had a full banner at the top left, new page -- single stream of content</li><li>* increase body copy size</li><ul class="indent"><li>* make it more readable</li></ul></ul><li>* brought everything into the same grid</li><li>* compared people who listened to audio vs. reading</li><ul class="indent"><li>* most articles, high read rate 75% average</li><li>* on audio, less than 10%</li></ul></ul><li>* Intended to ship it as an MVP and iterate</li><ul class="indent"><li>* but haven&#x27;t been able to return b&#x2F;c of other projects</li><li>* another ambitious idea: automate homepage</li><ul class="indent"><li>* analyzing sentiment in an article, come up with score, curve, to order articles on the homepage</li></ul><li><br></li></ul></ul><li>whyy:</li><ul class="indent"><li>* they had issues</li><li>* sunset newsworks brand</li><li>* whyy organizational site was out of date in terms of best practices (ux&#x2F;ui)</li><ul class="indent"><li>* wild west w&#x2F; what was on the homepage</li></ul><li>* wanted to merge onto one platform (wordpress + joomla??)</li><li>* wanted to be mobile first</li><li>* wanted a more modern look</li><li>* wanted to give editorial team better tools to produce content</li><li>* spent a lot of time on article template and cms</li><li>* facebook shares are the new homepage</li><li>* issues:</li><ul class="indent"><li>- CMS interface</li><li>- data mapping</li><li>- migration headaches</li><li>- builing toward automation&#x2F;building toward a lighter workflow</li><li>- site was slow, cms wasn&#x27;t intuitive</li><li>- old article type had no structured data</li><li>- display on the site depended on taxonomy</li><li>- everything in joomla was an article. No other content type.</li></ul><li>* data models</li><ul class="indent"><li>* programs had segments, episodes</li></ul><li>* needed to understand workflow of producers and editors</li><li>* all content had to be migrated to the new CMS</li><li>* needed to gerry-rig the content types into different types for the migration</li><ul class="indent"><li>* ie: which articles are actually segments, which ones are actually episodes</li></ul><li>* audio -- streamguys links</li><li>* wanted to mirror an API in the CMS</li><ul class="indent"><li>* that determines the fields</li></ul><li>* new: use advanced custom fields in wordpress</li><li>* got pushback from content owners</li><ul class="indent"><li>* wanted sharable pullquotes</li></ul><li>* the dream: stay in the story editor and be able to create other objects within it</li><li>* worked w&#x2F; outside agency for design</li><ul class="indent"><li>* spent time on what the information architecture in the end should be</li></ul><li>* spent 2-3 months on the UX of the CMS</li><li>* needed to convert everything to https</li><li>* worked w&#x2F; Blue Cadet design firm</li><ul class="indent"><li>* focused on what they did best: make things visually interesting</li></ul><li>* Pantheon hosts wordpress for them</li><ul class="indent"><li>* before, self-hosted everything</li><li>* moved to Pantheon b&#x2F;c of limited IT resources</li></ul><li>* ran weekly delta content during the migration period</li><ul class="indent"><li>* can&#x27;t ask content to do double entry for more than 2 weeks</li><li>* had to maintain Newsworks and the new site for 2 weeks (editorial)</li></ul><li>* avoided asking users if they wanted feature when doing user-first research</li><li>* wanted to understand what the pain points were for users</li><li>* realization: some features were the cost of doing business</li><ul class="indent"><li>* ie: crazy request from member services -- but their job is to solve every problem for every user</li></ul><li>* folded in tv proramming into the website</li><ul class="indent"><li>* end users are not going to the website to view videos</li><li>* but it was important to business stakeholders, so cost of doing business</li><ul class="indent"><li>* needed to build embeds</li></ul></ul><li>* fighting w&#x2F; membership to have our donate button be orange &quot;because it pops&quot;</li><ul class="indent"><li>* wants to move it to the left b&#x2F;c that&#x27;s how people read NOPE!</li><li>* compromise: they will get an orange heart inside the donate button</li><li>* no luxury to push back b&#x2F;c we see other teams in the hallway and we&#x27;re all on the same side</li></ul><li>* Walk it back from the tactic to the actual problem or goal we&#x27;re trying to solve</li><ul class="indent"><li>* think: &quot;is this a strategy, or am I coming w&#x2F; solutions first and applying tactics too soon?&quot;</li><li>* come to me w&#x2F; goals or problems, not the solution</li><li>* goals, not solutions</li></ul><li>* What we ended up with</li><ul class="indent"><li>* still had to serve a lot of stakeholders</li><li>* new navigation focuses on distribution, not verticles</li><li>* old site didn&#x27;t hae a donate button, just a support link</li><li>* live stream persistent player</li><li>* focus scroll on things immediately consumable and changing</li><li>* bring in relevancy to highlighting certain schedule elements</li><li>* events because people didn&#x27;t know how to find events on the old page</li><ul class="indent"><li>* feed that pulls from event content type</li></ul><li>* topics as navigation</li><ul class="indent"><li>* doesn&#x27;t deter or detract&nbsp;</li><li>* people don&#x27;t actually use it</li></ul><li>* article</li><ul class="indent"><li>* similar to kpcc&#x27;s</li></ul><li>* another type of article -- magazine&#x2F;enterprise style</li><ul class="indent"><li>* immersive experiences</li></ul><li>* segments w&#x2F; podcasts, logo and subscribe to podcast links at the top</li><li>* inline audio doesn&#x27;t go into persistent player</li></ul><li>* persistent player:</li><ul class="indent"><li>* stream does not start up after on demand audio stops</li></ul><li>* related content</li><ul class="indent"><li>* mindful about the type of programs&#x2F;content that gets pulled in</li></ul><li>* almost failure re: share CTA</li><ul class="indent"><li>* instead of sharing, an impact CTA: &quot;education your friends&quot; or &quot;Tell people about education problems&quot; for sharing buttons</li></ul><li>* What publishes to fb?</li><ul class="indent"><li>* YOAST plugin: manipulate metadata for social sharing</li></ul><li>* Question: Do you use the bottom spot for promos?</li><ul class="indent"><li>* Yes</li><li>* also have global notification banner for pledges and giving tuesday</li></ul><li>* Menu disapperas when scrolling down, but comes back up when scrolling up</li><ul class="indent"><li><br></li></ul></ul><li><br></li></ul>Vijay asks: How have you pushed user-first thinking in your org?<br>PRX:<br>&nbsp;&nbsp;&nbsp; * send everyone through the matter program on design thinking<br>&nbsp;&nbsp;&nbsp; * so everyone has the same shorthand<br>Marketplace<br><ul class="indent"><li>* metrics</li><li>* user testing</li></ul>WNYC<br><ul class="indent"><li>* freelancer who runs user testing experiments</li><ul class="indent"><li>* helpful for design iterations</li></ul><li>* stakeholders asking for a solution</li><ul class="indent"><li>* product&#x27;s job in product to figure out what the larger goals are</li></ul><li>* asking a lot of questions, learning processes, being patient</li><li><br></li></ul>How do people get ahead of things that come up?<br><ul class="indent"><li>* WNYC: quote caraousel</li><ul class="indent"><li>* do other people want to use this? NOPE</li><li>* death sex and money:</li><ul class="indent"><li>* embed the quote carousel in an article</li><li>* dev copied all the code and put it in an S3 bucket</li></ul><li>* new checklist provided to all shows re: embedding, digital extensions</li><li>* invite whole org for demo days</li><li>* provide ways for producers to generate things w&#x2F;o product team</li><ul class="indent"><li>* modules, toolkits, self service</li></ul><li>* build tools that multiple producers can use</li></ul><li>* KPCC:</li><ul class="indent"><li>* get rest of org to understand how we work as an agile scrum team</li><li>* unless it&#x27;s a real fire, put it in the sprint</li><li>* manage requests of your team</li><li>* a form that collects pitches for the product team</li><ul class="indent"><li>* what are you trying to do?</li><li>* what user is it for?</li><li>* what problem are you solving?</li><li>* sending that link to people, or filling it out with them -- there&#x27;s no way around this process</li></ul><li>* doing more upfront work to defend against last minute ask</li><li>* bottom up: talking to people on the same level but on other teams about our process</li><ul class="indent"><li>* build empathy</li></ul><li>* biweekly meetings w&#x2F; major departments</li></ul><li>* NPR</li><ul class="indent"><li>* expand design thinking outside of the digital media team</li><li>* don&#x27;t talk about design thinking by naming it</li><li>* do the things and methodlogy, but don&#x27;t call it that</li><li>* don&#x27;t evangelize design thinking</li><li>* usability testing</li><ul class="indent"><li>* invite everyone to watch testing</li></ul></ul><li>WHYY</li><ul class="indent"><li>* monthly backlog reviews w&#x2F; other departments</li><li>* flag any editorial initiatives</li><li><br></li><ul class="indent"><li><br></li><li><br></li></ul></ul></ul>Neilson has a good report on colors and best color for donate button<br>
+</body>
+</html>
